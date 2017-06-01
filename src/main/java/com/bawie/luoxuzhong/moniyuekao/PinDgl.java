@@ -57,9 +57,9 @@ public class PinDgl extends AppCompatActivity
         topRecyclerV.setHasFixedSize(true);
         bottomRecyclerV.setHasFixedSize(true);
 
-        //不靠谱-----------------------------------
+        /*//不靠谱-----------------------------------
         topRecyclerV.setItemAnimator(new DefaultItemAnimator());
-        bottomRecyclerV.setItemAnimator(new DefaultItemAnimator());
+        bottomRecyclerV.setItemAnimator(new DefaultItemAnimator());*/
 
         //gridView布局管理者
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,3);
